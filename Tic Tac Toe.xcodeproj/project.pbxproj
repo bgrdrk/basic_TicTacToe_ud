@@ -13,6 +13,11 @@
 		3DFE03762566692900CD596E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE03742566692900CD596E /* Main.storyboard */; };
 		3DFE03782566692E00CD596E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE03772566692E00CD596E /* Assets.xcassets */; };
 		3DFE037B2566692E00CD596E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE03792566692E00CD596E /* LaunchScreen.storyboard */; };
+		3DFE03932566716800CD596E /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE03902566716700CD596E /* board.png */; };
+		3DFE03942566716800CD596E /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE03912566716700CD596E /* cross.png */; };
+		3DFE03952566716800CD596E /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE03922566716800CD596E /* nought.png */; };
+		3DFE0399256692B600CD596E /* cross_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE0397256692B500CD596E /* cross_color.png */; };
+		3DFE039A256692B700CD596E /* nought_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE0398256692B600CD596E /* nought_color.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3DFE03772566692E00CD596E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFE037A2566692E00CD596E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DFE037C2566692E00CD596E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFE03902566716700CD596E /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		3DFE03912566716700CD596E /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		3DFE03922566716800CD596E /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		3DFE0397256692B500CD596E /* cross_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_color.png; sourceTree = "<group>"; };
+		3DFE0398256692B600CD596E /* nought_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought_color.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				3DFE03702566692900CD596E /* SceneDelegate.swift */,
 				3DFE03722566692900CD596E /* ViewController.swift */,
 				3DFE03742566692900CD596E /* Main.storyboard */,
+				3DFE03902566716700CD596E /* board.png */,
+				3DFE03912566716700CD596E /* cross.png */,
+				3DFE03922566716800CD596E /* nought.png */,
+				3DFE0397256692B500CD596E /* cross_color.png */,
+				3DFE0398256692B600CD596E /* nought_color.png */,
 				3DFE03772566692E00CD596E /* Assets.xcassets */,
 				3DFE03792566692E00CD596E /* LaunchScreen.storyboard */,
 				3DFE037C2566692E00CD596E /* Info.plist */,
@@ -124,8 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFE0399256692B600CD596E /* cross_color.png in Resources */,
+				3DFE03942566716800CD596E /* cross.png in Resources */,
+				3DFE03932566716800CD596E /* board.png in Resources */,
+				3DFE03952566716800CD596E /* nought.png in Resources */,
 				3DFE037B2566692E00CD596E /* LaunchScreen.storyboard in Resources */,
 				3DFE03782566692E00CD596E /* Assets.xcassets in Resources */,
+				3DFE039A256692B700CD596E /* nought_color.png in Resources */,
 				3DFE03762566692900CD596E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
